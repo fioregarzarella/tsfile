@@ -16,6 +16,9 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 ]]
+cmake_minimum_required(VERSION 3.5)
+project(tsfile)
+
 message("Running in bench_mark directory")
 if(DEFINED ENV{CXX})
     set(CMAKE_CXX_COMPILER $ENV{CXX})
